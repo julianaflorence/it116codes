@@ -1,0 +1,3 @@
+$ git clone https://github.com/username/repo.git
+Username: julianaflorence
+Password: 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
