@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- this is to learn the form element -->
+</body>
+</html>
+<body>
+    <section> 
+        <h1>username and password </h1>
+           <form action="">
+               <p> 
+                   <label for="username"> enter a name</label>
+                   <input id="username" type="text" placeholder="Type here" name="username">
+              </p>
+              <!-- this is how we create forms and items -->
+              <p> 
+                <label for="password"> enter a password</label>
+                <input id="password" type="password" placeholder="Type here" name="password">
+                <!-- changed type from text to password to shield text -->
+              </p>
+         </form>
+         <!-- Works well -->
+         <button> Sumbit Button </button>
+
+    </section>
+    <hr> 
+    <section> 
+        <!-- query strings for action, creates active seacrh query -->
+        <h1> query strings</h1>
+        </section>
+        
+          <form action="https://www.reddit.com/search/"> 
+              <input type="text" name="q">
+              <button> Sumbit Reddit Search</button>
+         </form>
+        <!--  -->
+         <form action="https://www.youtube.com/results?search_query"> 
+             <input type="text"  name="q">
+             <button>Sumbit Youtube Search</button>
+        </form>
+    
+        <form action="https://www.google.com/search">
+            <input type="text" name="q"> 
+            <button>Sumbit Google Search </button>
+      </form>
+
+    </section>
+
+    <section> 
+        <!-- this is how we make radio buttons -->
+     <h1> Radio buttons and check boxes</h1>
+     <form action="birds">  
+         <label for="agree"> Iagree to everything </label>
+         <input type="checkbox" name="agree_tos" id="agree">
+
+         <p>
+           <label for="s"> small</label> 
+           <input type="radio" name="size" id="s" value="small"> 
+           <label for="m"> medium</label> 
+           <input type="radio" name="size" id="m" value="medium"> 
+           <label for="l"> large</label> 
+           <input type="radio" name="size" id="l" value="large"> 
+
+
+
+         </p> 
+         <!-- this is how we create combobox, which is also called a dropmenu -->
+         <p>
+             <form>
+             <label for="favorite color"> what is your favorite color?</label>
+             <select name="favorite" id="favorite color">
+                 <option value="red"> Red </option>
+
+                 <option value="blue"> Blue </option>
+
+                 <option value="green"> Green</option> 
+ 
+             </select>
+
+         </p> 
+         
+
+     </form>
+     <!-- this is how we create a scroll bar :) -->
+     <p>
+         <label for="scroll"> Juls scroll bar </label>
+         <input type="range" id="scroll" min="0" max="10" name="scrollbar">
+
+
+
+
+     </p>
+     <p> 
+         <!-- this is how we create a text area on the page -->
+<label for="request">type into here</label> 
+<textarea id="request" name="reqs" rows="15" cols="15" placeholder="type something here"> </textarea>
+
+     </p>
+     <button> Submit </button>
+    </form>
+
+    </section>
+<!-- new section lets go! -->
+    <section>  
+        <h2>form validations </h2>
+        <form action="/bananas"> 
+   <label for=" required"></label>
+   <input type="text" name="funny" id="required" required> 
+<!-- this part confuses me a bit, but this is how wwe do the html form validations -->
+   <label for="length"></label>
+   <input type="text" name="lenghty" id="length" minlength="5" maxlength="10">
+    
+<input type="text" name="lenghty" id="length" minlength="5" maxlength="10">
+
+    <p>
+        <input type="email" required>
+    </p>  
+    <button type="sumbit">Sumbit here</button> 
+
+
+        </form>
+<!-- and done :) -->
+    </section>
+</body> 
+</html>
