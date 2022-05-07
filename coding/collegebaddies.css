@@ -1,0 +1,26 @@
+/* i call the elements by their class i created in the html by a period and its name */
+.first {
+    color: crimson;
+}
+.second{
+    color:lawngreen
+}
+/* i use the hex to get the exact color */
+.third {
+    color: #fbec5d
+}
+.fourth {
+    color: darkred;
+}
+.seventh {
+    color: orangered;
+}
+/* here i call the ids i created in the html by the # and its unique identifier */
+#urmom {
+    background-color: green;
+    color: antiquewhite;
+}
+#lovesme {
+    background-color: red;
+    color:white;
+}

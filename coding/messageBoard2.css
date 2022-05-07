@@ -1,0 +1,73 @@
+*
+/* the universal element allows us to select the entire code 
+for styling, here we will style the whole page  */
+  {
+
+    color: beige;
+    background-color: rgb(111, 163, 118);
+}
+
+*
+/* this is where we select and style the bodys background */
+body {
+    background-color: rgb(236, 192, 222);
+
+}
+/* here is how we change the style of the button  */
+button {
+
+    font-size: 30px;
+
+/* this is where we add color to our headers */
+}
+h1, h2 {
+    color: rgb(49, 11, 11);
+
+}
+/* this is an id selector */
+#SignUp {
+
+    background-color: rgba(131, 209, 183, 0.719);
+    color: rgb(190, 236, 138);
+}
+/* this is how we call a class and specifically style it */
+.books{
+    color: rgb(217, 238, 124);
+}
+/* descandent selectors, here we call every anchor tag (the child) under the 
+post class we created (the parent)*/
+.post a {
+
+    color: rgb(253, 159, 125);
+}
+/* this is the descendant selector */
+footer > a{
+    color: blueviolet;
+}
+/* to style the attribute, we must call the element first */
+input[type="password"] {
+    color: blue;
+}
+input[type="text"] {
+    color: chocolate;
+}
+/* looking for all anchor tags with the href */
+a [href *="google"] {
+    color: darkgoldenrod;
+}
+/* pseudoclass, we call a special state of the element. hover is a state that we will style */
+button:hover {
+    background-color: aquamarine;
+    color: darkolivegreen;
+}
+.post button:active {
+    background-color: darkseagreen;
+}
+/* this is the psedoelement, two colons specify the difference */
+h2::first-letter {
+    font-size: larger;
+}
+/* another example of a pseduoelement */
+p::first-line {
+    color: firebrick;
+}
