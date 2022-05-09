@@ -1,0 +1,9 @@
+/* here i call the class i created in the html to be styled. anything under the class of header will be styled  */
+.header {
+color: seagreen;
+    font-size: 30px;
+}
+/* here i call the unique identifer i created in the html to be styled  */
+#schools {
+    color: rgb(204, 169, 15);
+}
