@@ -1,0 +1,10 @@
+* {text-align: center;}
+.header {
+    display: 4px;
+    color: aliceblue;
+    background-color: black;
+}
+.alert-danger {
+    text-align: center;
+    
+}
