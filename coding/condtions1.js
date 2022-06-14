@@ -65,5 +65,35 @@ if (password.length >= 6) {
     if (password.indexOf(' ') === -1) {
         console.log("valid password");
         
-    }
-}
+    } else {
+        console.log("Password Cant Have Spaces");
+        
+        } else {
+            console.log("Password is too short");
+         }
+        
+        function singSong() {
+        
+            console.log("DO");
+            console.log("RE");
+            console.log("ME");
+        }
+        
+        singSong()
+        singSong()
+        singSong()
+        
+        function greet(firstName) {
+        
+            console.log(`Hey There, ${firstName}`)
+        }
+        
+        greet('Boomer');
+        
+        
+        function greet1(firstName,lastName) {
+        
+            console.log(`Hey There, ${firstName} ${lastName}`)
+        }
+        
+        greet1('Boomer','Sooner');
